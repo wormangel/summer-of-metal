@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import 'typeface-roboto'
+import {MuiThemeProvider, createMuiTheme} from 'material-ui/styles';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <MuiThemeProvider theme={createMuiTheme()}>
+      <App />
+    </MuiThemeProvider>
   </BrowserRouter>, document.getElementById('root')
 );
 registerServiceWorker();
