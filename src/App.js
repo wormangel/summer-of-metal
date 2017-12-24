@@ -15,7 +15,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" render={() => (
             <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
+              To get started, edit <code>src/App.js</code> and save to reload.
             </p>)}
           />
           <Route path="/festivals/:festivalId" component={FestivalDetailPage} />
