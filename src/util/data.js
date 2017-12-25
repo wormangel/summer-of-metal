@@ -5,7 +5,8 @@ const globalFestivalData = {
     date_start: "2018-08-02",
     date_end: "2018-08-04",
     country: "DE",
-    city: "Wacken"
+    city: "Wacken",
+    bgColor: "#4F4F4F"
   },
   hellfest: {
     name: "Hellfest Open Air",
@@ -13,7 +14,8 @@ const globalFestivalData = {
     date_start: "2018-06-22",
     date_end: "2018-06-24",
     country: "FR",
-    city: "Clissón"
+    city: "Clissón",
+    bgColor: "#202B30"
   },
   graspop: {
     name: "Graspop Metal Meeting",
@@ -21,7 +23,8 @@ const globalFestivalData = {
     date_start: "2018-06-21",
     date_end: "2018-06-24",
     country: "BE",
-    city: "Dessel"
+    city: "Dessel",
+    bgColor: "#610D0B"
   },
   metaldays: {
     name: "Metal Days",
@@ -29,7 +32,8 @@ const globalFestivalData = {
     date_start: "2018-07-22",
     date_end: "2018-07-28",
     country: "SL",
-    city: "Tolmin"
+    city: "Tolmin",
+    bgColor: "#512C0D"
   },
   partysan: {
     name: "Party.San Metal Open Air",
@@ -37,7 +41,8 @@ const globalFestivalData = {
     date_start: "2018-08-09",
     date_end: "2018-08-11",
     country: "DE",
-    city: "Schlotheim"
+    city: "Schlotheim",
+    bgColor: "#58241B"
   }
 };
 
