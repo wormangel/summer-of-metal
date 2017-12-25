@@ -43,6 +43,15 @@ const globalFestivalData = {
     country: "DE",
     city: "Schlotheim",
     bgColor: "#58241B"
+  },
+  summerbreeze: {
+    name: "Summer Breeze Open Air",
+    poster: "25394625_10155755412221675_50266300594972312_o.jpg",
+    date_start: "2018-08-15",
+    date_end: "2018-08-18",
+    country: "DE",
+    city: "Dinkelsbühl",
+    bgColor: "#54A974"
   }
 };
 

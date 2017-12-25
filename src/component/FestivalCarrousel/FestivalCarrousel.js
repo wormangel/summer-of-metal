@@ -8,7 +8,7 @@ class FestivalCarrousel extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      festivals: ["wacken", "hellfest", "metaldays", "partysan", "graspop"],
+      festivals: ["wacken", "hellfest", "metaldays", "partysan", "graspop", "summerbreeze"],
       currentFestival: 0
     };
     this.goToNextFestival = this.goToNextFestival.bind(this);
