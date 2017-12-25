@@ -19,10 +19,10 @@ class FestivalCarrousel extends Component {
     let festivalData = globalFestivalData[this.state.festivals[this.state.currentFestival]];
     let poster = require(`../../assets/img/posters/${festivalData.poster}`);
     return (
-      <Grid fluid={true} style={{backgroundColor: festivalData.bgColor}}>
+      <Grid fluid={true} style={{backgroundColor: festivalData.bgColor, color: "white"}}>
         <Row>
           <Col xs={12}>
-            <h1 style={{color: "white"}}>
+            <h1>
               {festivalData.name}
             </h1>
           </Col>
