@@ -5,7 +5,7 @@ class FestivalCarrousel extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      festivals: ["wacken", "hellfest"],
+      festivals: ["wacken", "hellfest", "metaldays", "partysan", "graspop"],
       currentFestival: 0
     };
   }

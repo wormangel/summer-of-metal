@@ -14,6 +14,30 @@ const globalFestivalData = {
     date_end: "2018-06-24",
     country: "FR",
     city: "Clissón"
+  },
+  graspop: {
+    name: "Graspop Metal Meeting",
+    poster: "gmm18weblineupv5.jpg",
+    date_start: "2018-06-21",
+    date_end: "2018-06-24",
+    country: "BE",
+    city: "Dessel"
+  },
+  metaldays: {
+    name: "Metal Days",
+    poster: "facebook_flyer-1200x1800-FB-Header-A.jpg",
+    date_start: "2018-07-22",
+    date_end: "2018-07-28",
+    country: "SL",
+    city: "Tolmin"
+  },
+  partysan: {
+    name: "Party.San Metal Open Air",
+    poster: "25289229_1578868185537585_6497807022144825696_n.jpg",
+    date_start: "2018-08-09",
+    date_end: "2018-08-11",
+    country: "DE",
+    city: "Schlotheim"
   }
 };
 
